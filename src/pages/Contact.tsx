@@ -180,7 +180,7 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div>
                       <h4 className="font-semibold text-primary mb-1">24/7 Hotline</h4>
-                      <p className="text-lg font-medium text-orange-600">+234 700 CMFB HELP</p>
+                      <p className="text-lg font-medium text-orange-600">08135637313</p>
                       <p className="text-sm text-muted-foreground">For lost cards, fraud reporting, and urgent assistance</p>
                     </div>
                     <div>
@@ -208,7 +208,7 @@ const Contact = () => {
                     </p>
                     <p className="text-primary-foreground/90">
                       <strong>Landmarks:</strong><br />
-                      Near Central Mosque, opposite Government House
+                      Olatinwo Shopping Plaza, Offa Garage
                     </p>
                     <p className="text-primary-foreground/90">
                       <strong>Parking:</strong> Free customer parking available

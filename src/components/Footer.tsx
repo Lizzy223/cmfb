@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail } from "lucide-react";
+import logo from "@/assets/logoCre-removebg-preview.png"
 
 const Footer = () => {
   return (
@@ -8,12 +9,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center">
                 <span className="text-orange-600-foreground font-bold text-sm">C</span>
               </div>
               <span className="text-xl font-bold">CMFB</span>
-            </div>
+            </div> */}
+             {/* Logo */}
+                      <Link to="/" className="flex items-center space-x-2">
+                        <img src={logo} alt="CMFB Logo" className="h-10 w-70 " />
+                      </Link>
             <p className="text-primary-foreground/80 text-sm">
               Crescent Microfinance Bank committed to empowering individuals and small businesses in Ilorin and beyond.
             </p>

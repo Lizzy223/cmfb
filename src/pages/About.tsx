@@ -24,10 +24,10 @@ const About = () => {
   ];
 
   const achievements = [
-    { number: "10,000+", label: "Happy Customers" },
-    { number: "₦5B+", label: "Loans Disbursed" },
-    { number: "15+", label: "Years of Service" },
-    { number: "50+", label: "Team Members" }
+    { number: "500+", label: "Happy Customers" },
+    { number: "₦197M+", label: "Loans Disbursed" },
+    { number: "8+", label: "Years of Service" },
+    { number: "40", label: "Team Members" }
   ];
 
   const loanProducts = [

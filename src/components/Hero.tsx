@@ -19,7 +19,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <motion.h1
-              className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white"
+              className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight text-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -29,7 +29,7 @@ const Hero = () => {
             </motion.h1>
 
             <motion.p
-              className="text-xl md:text-2xl mb-12 text-blue-100 leading-relaxed mx-auto"
+              className="text-sm sm:text-xl md:text-2xl mb-12 text-blue-100 leading-relaxed mx-auto"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
@@ -49,7 +49,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-orange-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-orange-700 transition-all shadow-lg shadow-orange-600/30 flex items-center justify-center gap-2 no-underline cursor-pointer"
+                className="bg-orange-600 text-white px-8 sm:py-4 py-2 rounded-xl font-semibold hover:bg-orange-700 transition-all shadow-lg shadow-orange-600/30 flex items-center justify-center gap-2 no-underline cursor-pointer"
               >
                 Open an Account
                 <ArrowRight size={20} />
@@ -59,7 +59,7 @@ const Hero = () => {
                 href="/about"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/20 transition-all border border-white/20 flex items-center justify-center no-underline cursor-pointer"
+                className="bg-white/10 backdrop-blur-sm text-white px-8 sm:py-4 py-2 rounded-xl font-semibold hover:bg-white/20 transition-all border border-white/20 flex items-center justify-center no-underline cursor-pointer"
               >
                 Learn More
               </motion.a>

@@ -46,8 +46,8 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-xl max-w-3xl mx-auto opacity-90">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-6">Contact Us</h1>
+          <p className="text-sm sm:text-xl max-w-3xl mx-auto opacity-90">
             Get in touch with our team. We're here to help with all your banking needs.
           </p>
         </div>
@@ -57,8 +57,8 @@ const Contact = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Get In Touch</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <h2 className=" text-2xl sm:text-4xl font-bold text-primary mb-4">Get In Touch</h2>
+            <p className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Multiple ways to reach us for your convenience
             </p>
           </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                   <div className="mx-auto mb-4 w-16 h-16 bg-orange-600/10 rounded-full flex items-center justify-center">
                     {contact.icon}
                   </div>
-                  <CardTitle className="text-xl">{contact.title}</CardTitle>
+                  <CardTitle className="text-sm sm:text-xl">{contact.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="whitespace-pre-line text-lg font-semibold text-primary mb-2">
@@ -180,7 +180,7 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div>
                       <h4 className="font-semibold text-primary mb-1">24/7 Hotline</h4>
-                      <p className="text-lg font-medium text-orange-600">08135637313</p>
+                      <p className="text-sm sm:text-lg font-medium text-orange-600">08135637313</p>
                       <p className="text-sm text-muted-foreground">For lost cards, fraud reporting, and urgent assistance</p>
                     </div>
                     <div>
@@ -225,8 +225,8 @@ const Contact = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-primary mb-4">Find Us</h2>
-            <p className="text-xl text-muted-foreground">
+            <h2 className="text-2xl sm:text-4xl font-bold text-primary mb-4">Find Us</h2>
+            <p className="text-sm sm:text-xl text-muted-foreground">
               Located in the heart of Ilorin's Government Reserved Area
             </p>
           </div>
@@ -237,7 +237,7 @@ const Contact = () => {
                 {/* <div className="w-full h-96 bg-bank-light-blue rounded-lg flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="h-16 w-16 text-orange-600 mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold text-primary mb-2">Interactive Map</h3>
+                    <h3 className="text-sm sm:text-xl font-semibold text-primary mb-2">Interactive Map</h3>
                     <p className="text-muted-foreground">
                       9 Olatinwo Plaza, Opposite St. Charles Nursery and Primary school offa garage, Ilorin, Kwara State
                     </p>

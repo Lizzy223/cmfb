@@ -90,11 +90,11 @@ const Services = () => {
           <motion.h1 initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-5xl font-bold mb-6">Our Services</motion.h1>
+            transition={{ delay: 0.1 }} className="text-3xl sm:text-5xl font-bold mb-6">Our Services</motion.h1>
           <motion.p initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-xl max-w-3xl mx-auto opacity-90">
+            transition={{ delay: 0.1 }} className="text-sm sm:text-xl max-w-3xl mx-auto opacity-90">
             Comprehensive financial solutions designed to meet your personal and business needs
           </motion.p>
         </div>
@@ -107,8 +107,8 @@ const Services = () => {
             <motion.h2 initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Core Services</motion.h2>
-            <motion.p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold text-primary mb-4">Core Services</motion.h2>
+            <motion.p className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Our primary offerings designed to support your financial growth
             </motion.p>
           </div>
@@ -154,11 +154,11 @@ const Services = () => {
             <motion.h2 initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Additional Services</motion.h2>
+              transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold text-primary mb-4">Additional Services</motion.h2>
             <motion.p initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              transition={{ delay: 0.1 }} className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Extended financial services to support your complete banking needs
             </motion.p>
           </div>
@@ -188,11 +188,11 @@ const Services = () => {
             <motion.h2 initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Why Bank With Us?</motion.h2>
+              transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold text-primary mb-4">Why Bank With Us?</motion.h2>
             <motion.p initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              transition={{ delay: 0.1 }} className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Experience the advantages of community banking
             </motion.p>
           </div>
@@ -219,8 +219,8 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-primary mb-4">Loan Information</h2>
-              <p className="text-xl text-muted-foreground">
+              <h2 className=" text-2xl sm:text-4xl font-bold text-primary mb-4">Loan Information</h2>
+              <p className="text-sm sm:text-xl text-muted-foreground">
                 Understanding our loan products and requirements
               </p>
             </div>
@@ -228,7 +228,7 @@ const Services = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <Card className="shadow-card">
                 <CardHeader>
-                  <CardTitle className="text-xl">Loan Requirements</CardTitle>
+                  <CardTitle className="text-sm sm:text-xl">Loan Requirements</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
@@ -258,7 +258,7 @@ const Services = () => {
 
               <Card className="shadow-card">
                 <CardHeader>
-                  <CardTitle className="text-xl">Loan Features</CardTitle>
+                  <CardTitle className="text-sm sm:text-xl">Loan Features</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
@@ -292,11 +292,11 @@ const Services = () => {
           <motion.h2 initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-4xl font-bold mb-6">Ready to Get Started?</motion.h2>
+            transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold mb-6">Ready to Get Started?</motion.h2>
           <motion.p initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+            transition={{ delay: 0.1 }} className="text-sm sm:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Take the first step towards achieving your financial goals with CMFB
           </motion.p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

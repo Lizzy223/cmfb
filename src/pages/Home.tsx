@@ -86,32 +86,6 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      {/* <section className="relative h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-        <div className="absolute inset-0 bg-blue-900 z-10"></div>
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        ></div>
-        
-        <div className="relative z-20 container mx-auto px-4 text-center text-white">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Your Partner in<br />
-            <span className="text-orange-600">Financial Growth</span>
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-            Crescent Microfinance Bank - Empowering dreams, building futures in Ilorin, Nigeria
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-orange-600 hover:bg-orange-600/90 text-orange-600-foreground">
-              Open Account
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary">
-              Learn More
-            </Button>
-          </div>
-        </div>
-      </section> */}
       <Hero />
 
       {/* Features Section */}
@@ -121,11 +95,11 @@ const Home = () => {
             <motion.h2 initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Why Choose CMFB?</motion.h2>
+              transition={{ delay: 0.1 }} className=" text-2xl sm:text-4xl font-bold text-primary mb-4">Why Choose CMFB?</motion.h2>
             <motion.p initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              transition={{ delay: 0.1 }} className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               We're more than a bank - we're your community financial partner
             </motion.p>
           </div>
@@ -164,12 +138,12 @@ const Home = () => {
               viewport={{ once: true }}
               className="inline-block bg-orange-100 px-6 py-2 rounded-full mb-4"
             >
-              <span className="text-orange-600 font-semibold">What We Offer</span>
+              <span className="text-orange-600  font-semibold">What We Offer</span>
             </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               Our Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-sm sm:text-xl text-gray-600 max-w-2xl mx-auto">
               Comprehensive financial solutions designed to meet your unique needs
             </p>
           </motion.div>
@@ -211,11 +185,11 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-              className="text-4xl font-bold mb-6">Ready to Start Your Financial Journey?</motion.h2>
+              className="sm:text-4xl text-2xl font-bold mb-6">Ready to Start Your Financial Journey?</motion.h2>
           <motion.p initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+            transition={{ delay: 0.1 }} className="text-sm sm:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Join thousands of satisfied customers who trust CMFB for their banking needs
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 30 }}

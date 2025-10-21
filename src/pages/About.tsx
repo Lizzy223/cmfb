@@ -132,11 +132,11 @@ const About = () => {
           <motion.h1 initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-5xl font-bold mb-6">About CMFB</motion.h1>
+            transition={{ delay: 0.1 }} className="text-3xl sm:text-5xl font-bold mb-6">About CMFB</motion.h1>
           <motion.p initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }} className="text-xl max-w-3xl mx-auto opacity-90">
+            transition={{ delay: 0.1 }} className=" text-sm sm:text-xl max-w-3xl mx-auto opacity-90">
             Crescent Microfinance Bank has been serving Ilorin and surrounding communities, 
             providing trusted financial solutions that fuel growth and prosperity.
           </motion.p>
@@ -151,12 +151,12 @@ const About = () => {
               <motion.h2 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-6">Our Story</motion.h2>
-              <div className="space-y-4 text-muted-foreground">
+                transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold text-primary mb-6">Our Story</motion.h2>
+              <div className="space-y-4 text-sm sm:text-lg text-muted-foreground">
                 <motion.p initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: 0.2 }} className="text-lg">
+                  transition={{ delay: 0.2 }} className=" text-sm sm:text-lg">
                   Crescent Microfinance Bank (CMFB) was established with a clear mission: 
                   to bridge the financial inclusion gap in Ilorin, Kwara State, and provide accessible 
                   banking services to underserved communities.
@@ -204,7 +204,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-              className="text-4xl font-bold mb-4 text-primary "
+              className="text-2xl sm:text-4xl font-bold mb-4 text-primary "
               >
               Our <span className="text-primary ">Loan Products</span>
               </motion.h2>
@@ -213,7 +213,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="text-xl text-gray-600 max-w-2xl mx-auto"
+              className="text-sm sm:text-xl text-gray-600 max-w-2xl mx-auto"
               >
                 Tailored financial solutions designed to meet your unique needs and help you achieve your goals
               </motion.p>
@@ -273,7 +273,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-              className="text-4xl text-primary  font-bold mb-4"
+              className=" text-2xl sm:text-4xl text-primary  font-bold mb-4"
               >
               Our <span className="text-primary ">Savings Products</span>
               </motion.h2>
@@ -282,7 +282,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="text-xl text-gray-600 max-w-2xl mx-auto"
+              className="text-sm sm:text-xl text-gray-600 max-w-2xl mx-auto"
               >
                 Build your future with secure savings plans designed to help you achieve your financial aspirations
               </motion.p>
@@ -340,11 +340,11 @@ const About = () => {
             <motion.h2 initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Our Impact</motion.h2>
+              transition={{ delay: 0.1 }} className="text-2xl sm:text-4xl font-bold text-primary mb-4">Our Impact</motion.h2>
             <motion.p initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              transition={{ delay: 0.1 }} className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto">
               Numbers that tell our story of growth and community impact
             </motion.p>
           </div>
@@ -376,7 +376,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl font-bold text-primary mb-4"
+              className="text-2xl sm:text-4xl font-bold text-primary mb-4"
             >
               What Our Customers Say
             </motion.h2>
@@ -385,7 +385,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="text-xl text-muted-foreground max-w-2xl mx-auto"
+              className="text-sm sm:text-xl text-muted-foreground max-w-2xl mx-auto"
             >
               Real stories from members of our community
             </motion.p>

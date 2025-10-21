@@ -69,12 +69,12 @@ const Home = () => {
       description: 'Grow your money with our secure and profitable investment opportunities',
       color: 'from-orange-600 to-orange-700'
     },
-    {
-      icon: Shield,
-      title: 'Insurance Services',
-      description: 'Protect what matters most with our comprehensive insurance products',
-      color: 'from-blue-700 to-blue-800'
-    },
+    // {
+    //   icon: Shield,
+    //   title: 'Insurance Services',
+    //   description: 'Protect what matters most with our comprehensive insurance products',
+    //   color: 'from-blue-700 to-blue-800'
+    // },
     {
       icon: Building2,
       title: 'Agent Banking',

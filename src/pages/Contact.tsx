@@ -1,3 +1,4 @@
+import MapComponent from '@/components/MapComponent';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -233,7 +234,7 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto">
             <Card className="shadow-elegant">
               <CardContent className="p-0">
-                <div className="w-full h-96 bg-bank-light-blue rounded-lg flex items-center justify-center">
+                {/* <div className="w-full h-96 bg-bank-light-blue rounded-lg flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="h-16 w-16 text-orange-600 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-primary mb-2">Interactive Map</h3>
@@ -244,7 +245,8 @@ const Contact = () => {
                       Get Directions
                     </Button>
                   </div>
-                </div>
+                </div> */}
+                <MapComponent />
               </CardContent>
             </Card>
           </div>

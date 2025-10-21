@@ -118,10 +118,16 @@ const Home = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Why Choose CMFB?</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <motion.h2 initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Why Choose CMFB?</motion.h2>
+            <motion.p initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We're more than a bank - we're your community financial partner
-            </p>
+            </motion.p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -200,18 +206,31 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Start Your Financial Journey?</h2>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+          <motion.h2
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+              className="text-4xl font-bold mb-6">Ready to Start Your Financial Journey?</motion.h2>
+          <motion.p initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Join thousands of satisfied customers who trust CMFB for their banking needs
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          </motion.p>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link className="cursor-pointer no-underline" to="https://calendly.com/crescentmfb-info/30min">
             <Button size="lg" variant="secondary" className="bg-orange-600 hover:bg-orange-600/90 text-orange-600-foreground">
               Open Account Today
             </Button>
+            </Link>
             <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary hover:bg-primary-foreground hover:text-primary">
               <Link to="/contact">Contact Us</Link>
             </Button>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

@@ -14,6 +14,7 @@ import {
   CheckCircle
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 const Services = () => {
   const mainServices = [
@@ -86,10 +87,16 @@ const Services = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">Our Services</h1>
-          <p className="text-xl max-w-3xl mx-auto opacity-90">
+          <motion.h1 initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-5xl font-bold mb-6">Our Services</motion.h1>
+          <motion.p initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-xl max-w-3xl mx-auto opacity-90">
             Comprehensive financial solutions designed to meet your personal and business needs
-          </p>
+          </motion.p>
         </div>
       </section>
 
@@ -97,10 +104,13 @@ const Services = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Core Services</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <motion.h2 initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Core Services</motion.h2>
+            <motion.p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Our primary offerings designed to support your financial growth
-            </p>
+            </motion.p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -141,10 +151,16 @@ const Services = () => {
       <section className="py-20 bg-bank-light-blue">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Additional Services</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <motion.h2 initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Additional Services</motion.h2>
+            <motion.p initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Extended financial services to support your complete banking needs
-            </p>
+            </motion.p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -169,21 +185,30 @@ const Services = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Why Bank With Us?</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <motion.h2 initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }} className="text-4xl font-bold text-primary mb-4">Why Bank With Us?</motion.h2>
+            <motion.p initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Experience the advantages of community banking
-            </p>
+            </motion.p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
-              <div key={index} className="text-center">
+              <motion.div initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.1 }} key={index} className="text-center">
                 <div className="mx-auto mb-4 w-16 h-16 bg-orange-600/10 rounded-full flex items-center justify-center">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-2">{benefit.title}</h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -264,10 +289,16 @@ const Services = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+          <motion.h2 initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-4xl font-bold mb-6">Ready to Get Started?</motion.h2>
+          <motion.p initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }} className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
             Take the first step towards achieving your financial goals with CMFB
-          </p>
+          </motion.p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary" className="bg-orange-600 hover:bg-orange-600/90 text-orange-600-foreground">
               <Link to="/contact">Apply for a Loan</Link>

@@ -39,9 +39,11 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <Button variant="default" size="sm" className="bg-orange-600">
-              Get Started
-            </Button>
+            <Link className="cursor-pointer no-underline" to="https://calendly.com/crescentmfb-info/30min" >
+              <Button variant="default" size="sm" className="bg-orange-600">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -75,9 +77,11 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
+                <Link className="cursor-pointer no-underline" to="https://calendly.com/crescentmfb-info/30min" >
                 <Button variant="default" size="sm" className="w-full bg-gradient-primary">
                   Get Started
                 </Button>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@
 import React from 'react'
 import {  Users, TrendingUp, Shield, CreditCard, Wallet, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section id="home" className="pt-32 pb-20 px-4 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
@@ -34,6 +35,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
+            <Link className="cursor-pointer no-underline" to="https://calendly.com/crescentmfb-info/30min" >
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -42,6 +44,8 @@ const Hero = () => {
               Open an Account
               <ArrowRight size={20} />
             </motion.button>
+            </Link>
+            <Link className="cursor-pointer no-underline" to="/about" >
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -49,6 +53,7 @@ const Hero = () => {
             >
               Learn More
             </motion.button>
+            </Link>
           </motion.div>
         </motion.div>
 
@@ -64,8 +69,8 @@ const Hero = () => {
               rotate: [0, 3, 0]
             }}
             transition={{ 
-              duration: 4,
-              repeat: Infinity,
+              duration: 2,
+              // repeat: Infinity,
               ease: "easeInOut"
             }}
             className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl p-8 shadow-2xl"

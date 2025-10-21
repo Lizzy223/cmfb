@@ -18,19 +18,19 @@ const Contact = () => {
       icon: <Phone className="h-8 w-8 text-orange-600" />,
       title: "Call Us",
       info: "08135637313",
-      description: "Available Monday to Friday, 8AM to 5PM"
+      description: "Available Monday to Friday, 8AM to 4PM"
     },
     {
       icon: <Mail className="h-8 w-8 text-orange-600" />,
       title: "Email Us",
-      info: "info@crescentmfb.ng\nsupport@crescentmfb.ng",
+      info: "contact@crescentmfb.ng",
       description: "We respond within 24 hours"
     }
   ];
 
   const businessHours = [
-    { day: "Monday - Friday", hours: "8:00 AM - 5:00 PM" },
-    { day: "Saturday", hours: "9:00 AM - 2:00 PM" },
+    { day: "Monday - Friday", hours: "8:00 AM - 4:00 PM" },
+    { day: "Saturday", hours: "Closed" },
     { day: "Sunday", hours: "Closed" },
     { day: "Public Holidays", hours: "Closed" }
   ];
@@ -185,7 +185,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-primary mb-1">WhatsApp Support</h4>
-                      <p className="text-lg font-medium text-orange-600">08135637313</p>
+                      {/* <p className="text-lg font-medium text-orange-600">08135637313</p> */}
                       <p className="text-sm text-muted-foreground">Quick support via WhatsApp</p>
                     </div>
                   </div>
